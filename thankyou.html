@@ -1,197 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thank You – MABRY Loan &amp; SSI Upgrade and Support</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <style>
-    .thankyou-section {
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: var(--gray-50);
-      padding: 120px 20px 60px;
-    }
-    .thankyou-card {
-      background: var(--white);
-      border-radius: var(--radius-lg);
-      padding: 60px 50px;
-      max-width: 640px;
-      width: 100%;
-      text-align: center;
-      box-shadow: var(--shadow-lg);
-    }
-    .thankyou-icon {
-      width: 88px;
-      height: 88px;
-      background: #f0fdf4;
-      border: 3px solid #86efac;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 2.4rem;
-      margin: 0 auto 28px;
-    }
-    .thankyou-card h1 {
-      color: var(--blue);
-      font-size: clamp(1.8rem, 4vw, 2.4rem);
-      margin-bottom: 1rem;
-    }
-    .thankyou-card p {
-      font-size: 1rem;
-      color: var(--gray-600);
-      margin-bottom: 1rem;
-      line-height: 1.75;
-    }
-    .thankyou-steps {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-      margin: 28px 0 36px;
-      text-align: left;
-      background: var(--gray-50);
-      border-radius: var(--radius);
-      padding: 24px;
-      border: 1px solid var(--gray-200);
-    }
-    .thankyou-step {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      font-size: 0.9rem;
-      color: var(--gray-600);
-    }
-    .thankyou-step .step-icon {
-      font-size: 1.1rem;
-      flex-shrink: 0;
-    }
-    .thankyou-btns {
-      display: flex;
-      gap: 14px;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
-    @media (max-width: 480px) {
-      .thankyou-card { padding: 36px 24px; }
-      .thankyou-btns { flex-direction: column; }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You | SSI Support</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            font-family:Arial, Helvetica, sans-serif;
+            background:#f4f7fb;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+        }
+
+        .thankyou-box{
+            max-width:650px;
+            background:#fff;
+            padding:40px;
+            border-radius:12px;
+            box-shadow:0 10px 25px rgba(0,0,0,.12);
+            text-align:center;
+        }
+
+        .check{
+            font-size:70px;
+            color:#28a745;
+        }
+
+        h1{
+            color:#0d47a1;
+            margin-top:10px;
+        }
+
+        p{
+            color:#555;
+            margin:20px 0;
+            line-height:1.7;
+        }
+
+        .btn{
+            display:inline-block;
+            margin-top:20px;
+            background:#0d47a1;
+            color:#fff;
+            text-decoration:none;
+            padding:14px 30px;
+            border-radius:6px;
+            font-weight:bold;
+            transition:.3s;
+        }
+
+        .btn:hover{
+            background:#1565c0;
+        }
+    </style>
+
 </head>
+
 <body>
 
-<!-- NAVBAR -->
-<header class="navbar">
-  <div class="container nav-inner">
-    <div class="logo">
-      <span class="logo-main">MABRY</span>
-      <span class="logo-sub">Loan &amp; SSI Upgrade and Support</span>
-    </div>
-    <nav class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="services.html">Services</a>
-      <a href="learnmore.html">Learn More</a>
-      <a href="contact.html">Contact</a>
-      <a href="apply.html" class="nav-cta">Apply Now</a>
-    </nav>
-    <button class="hamburger" aria-label="Toggle menu">
-      <span></span><span></span><span></span>
-    </button>
-  </div>
-</header>
+<div class="thankyou-box">
 
-<!-- THANK YOU CARD -->
-<div class="thankyou-section">
-  <div class="thankyou-card">
-
-    <div class="thankyou-icon">✅</div>
+    <div class="check">✔</div>
 
     <h1>Thank You!</h1>
 
-    <p>Your request has been submitted successfully. Our support team will carefully review the information you provided and reach out to you using the contact details you supplied.</p>
+    <p>
+        Your SSI Support Request has been submitted successfully.
+    </p>
 
-    <p>We appreciate your trust in MABRY and look forward to helping you achieve your financial goals.</p>
+    <p>
+        Our support team will carefully review the information you provided.
+        If additional verification is required, we will contact you using the
+        phone number or email address you supplied.
+    </p>
 
-    <div class="thankyou-steps">
-      <div class="thankyou-step">
-        <span class="step-icon">📋</span>
-        <span>Our team will review your submission within 24 hours.</span>
-      </div>
-      <div class="thankyou-step">
-        <span class="step-icon">📞</span>
-        <span>A specialist will contact you by phone or email to discuss next steps.</span>
-      </div>
-      <div class="thankyou-step">
-        <span class="step-icon">📄</span>
-        <span>We may request additional documents to complete your file.</span>
-      </div>
-      <div class="thankyou-step">
-        <span class="step-icon">⚡</span>
-        <span>We work quickly — most cases move to active processing within 1–2 business days.</span>
-      </div>
-    </div>
+    <p>
+        Thank you for choosing our services. We appreciate your trust and
+        look forward to assisting you.
+    </p>
 
-    <div class="thankyou-btns">
-      <a href="index.html" class="btn btn-primary">Return to Home</a>
-      <a href="contact.html" class="btn btn-outline" style="color: var(--blue); border-color: var(--blue);">Contact Us</a>
-    </div>
+    <a href="index.html" class="btn">
+        Return to Home
+    </a>
 
-  </div>
 </div>
 
-<!-- FOOTER -->
-<footer>
-  <div class="container">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <div class="logo">
-          <span class="logo-main">MABRY</span>
-          <span class="logo-sub">Loan &amp; SSI Upgrade and Support</span>
-        </div>
-        <p>Reliable Solutions. Real Results. Helping individuals and families access trusted financial support — quickly, securely, and with dignity.</p>
-      </div>
-      <div class="footer-col">
-        <h4>Company</h4>
-        <div class="footer-links">
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="services.html">Services</a>
-          <a href="learnmore.html">Learn More</a>
-        </div>
-      </div>
-      <div class="footer-col">
-        <h4>Support</h4>
-        <div class="footer-links">
-          <a href="contact.html">Contact Us</a>
-          <a href="apply.html">Apply Now</a>
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms of Service</a>
-        </div>
-      </div>
-      <div class="footer-col">
-        <h4>Contact</h4>
-        <div class="footer-contact-item"><span>📍</span> United States</div>
-        <div class="footer-contact-item"><span>📞</span> +1 505 356 2288</div>
-        <div class="footer-contact-item"><span>✉</span> desmondgodpower0@gmail.com</div>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <p>© 2026 MABRY Loan and SSI Upgrade &amp; Support. All Rights Reserved.</p>
-      <div class="footer-legal">
-        <a href="#">Privacy Policy</a>
-        <a href="#">Terms of Service</a>
-      </div>
-    </div>
-  </div>
-</footer>
-
-<button class="back-to-top" aria-label="Back to top">↑</button>
-<script src="js/script.js"></script>
 </body>
 </html>
